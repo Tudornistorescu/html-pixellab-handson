@@ -29,5 +29,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "json.schemas": [],
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "livePreview.defaultPreviewPath": "/curs04/ex04/index.html"
 }
