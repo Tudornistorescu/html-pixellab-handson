@@ -1,0 +1,25 @@
+/* insert code */
+
+i {
+  color: red;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+p .line {
+  color: gray;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+b {
+  color: purple;
+}
