@@ -1,1 +1,18 @@
+.my-div {
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border: 1px solid green;
+  margin: 0 auto;
+}
 
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 21px;
+}
