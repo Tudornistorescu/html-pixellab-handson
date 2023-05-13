@@ -53,15 +53,25 @@
       href="https://google.com"
       title="GDPR"
     >GDPR</a>
+
+    <a
+      href="https://google.com"
+      title="Customer Service"
+    >Customer Service</a>
+
+    <a
+      href="https://google.com"
+      title="Contact"
+    >Contact</a>
   </p>
 
-  <!-- insert h2 -->
+
 
   <h2>Newsletter Form</h2>
 
   <form>
     <fieldset>
-      <legend>Subscribe</legend>
+      <legend>Subscribe:</legend>
 
       <label>Title:</label>
       <label for="male">Mr</label>
@@ -70,6 +80,7 @@
         name="gender"
         id="male"
         value="male"
+        checked
       >
       <label for="female">Ms</label>
       <input
@@ -86,7 +97,41 @@
         value="na"
       > <br>
 
-      <!-- insert code here -->
+      <label for="name">*Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      > <br>
+
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      ><br>
+
+      <label for="email">*Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      > <br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+      <label for="subscribe">
+        Agree to this and <i> we will send you emails</i>
+      </label> <br>
 
       <input
         type="checkbox"
@@ -94,13 +139,55 @@
         id="Subscribe"
       >
       <label for="Subscribe">
-        Agree to this and <i> we will send you emails.</i>
-      </label>
+        <i>GDPR</i> generic consent?
+      </label> <br>
+
+      <label for="gdpr-consent">gdpr-consent</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Subscribe</button>
+
 
     </fieldset>
-  </form>
+  </form> <br> <br> <br>
 
-  <!-- insert code here -->
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Vero aut, voluptas minima possimus, neque ducimus
+    voluptatem voluptate quibusdam,
+    quaerat id qui harum modi eaque nisi cumque ea minus rem nemo?
+  </p>
+
+  <p>
+    <a
+      href="https://google.com"
+      title="Privacy"
+    >Privacy</a>
+
+    <a
+      href="https://google.com"
+      title="GDPR"
+    >GDPR</a>
+
+    <a
+      href="https://google.com"
+      title="Customer Service"
+    >Customer Service</a>
+
+    <a
+      href="https://google.com"
+      title="Contact"
+    >Contact</a>
+  </p>
+
 
   <div
     class="pixeltab-host"
