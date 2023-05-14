@@ -55,9 +55,8 @@
 
     <li>
       <a
-        href="https://www.coduripostale.com""
-        target="
-        _blank"
+        href="https://www.coduripostale.com"
+        target="_blank"
         title="coduri postale"
         rel="noopener noreferrer"
       >https://www.coduripostale.com"</a>
@@ -70,8 +69,89 @@
     <fieldset>
       <legend>Address Information:</legend>
 
-      <!-- insert code -->
 
+      <label for="title">Title:</label>
+
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      > <br> <br>
+
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      > <br> <br>
+
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      > <br> <br>
+
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      > <br> <br>
+
+      <label for="address1">*Address line 1:</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      > <br> <br>
+
+      <label for="address2">*Address Line 2:</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+        required
+      > <br> <br>
+
+      <label for="city">*City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      > <br> <br>
+
+      <br>
       <label for="state">*State</label>
       <select
         name="state"
@@ -82,9 +162,35 @@
         <option value="newYork">New York</option>
         <option value="vermont">Vermont</option>
         <option value="miami">Miami</option>
-      </select>
+      </select> <br> <br>
 
-      <!-- insert code -->
+      <label for="postcode">*Postcode:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      > <br> <br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent"> GDPR generic consent?</label> <br> <br>
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Create Account</button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
     </fieldset>
   </form>
 
