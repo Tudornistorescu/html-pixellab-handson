@@ -25,7 +25,7 @@
     <a
       href="https://google.com"
       title="Home"
-    >PLace order</a> |
+    ><b>Place order</b></a> |
 
     <a
       href="https://google.com"
@@ -109,9 +109,7 @@
 
   <h2>Order Now</h2>
 
-  <p>
-    On our website<i>no account is needed</i>
-  </p>
+  <p>On our website <i>no account is needed</i>.</p>
 
   <ol>
     <li>First we need some info about yourself. <b>Don’t forget to provide a phone.</b></li>
@@ -170,6 +168,16 @@
         required
       > <br> <br>
 
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+
+
       <label for="phone">*Phone:</label>
       <input
         type="tel"
@@ -181,30 +189,29 @@
     </fieldset>
 
     <fieldset>
-      <legend>Address</legend>
-      <label for="name">*Name:</label>
+      <label for="address-name">*Name:</label>
       <input
         type="text"
-        name="ame"
-        id="Name"
+        name="address-name"
+        id="address-name"
         placeholder="Name"
         required
       > <br> <br>
 
-      <label for="surname">*Surname:</label>
+      <label for="address-surname">*Surname:</label>
       <input
         type="text"
-        name="surname"
-        id="Surname"
+        name="address-surname"
+        id="address-surname"
         placeholder="Surname"
         required
       > <br> <br>
 
-      <label for="phone">*Phone:</label>
+      <label for="address-phone">*Phone:</label>
       <input
         type="tel"
-        name="phone"
-        id="Phone"
+        name="address-phone"
+        id="address-phone"
         placeholder="Phone"
         required
       > <br> <br>
@@ -280,10 +287,13 @@
         required
       ><br> <br>
 
-      <label for="card-exppiry-month">*Epiry Month</label>
+      <label for="card-expiry-month">*Epiry Month</label>
+
       <select
         type="undefined"
         id="card-expiry-month"
+        name="card-expiry-month"
+        placeholder="card-expiry-month"
         required
       >
 
@@ -292,12 +302,118 @@
         <option value="martie">martie</option>
       </select>
 
+
+      <label for="card-expiry-year">*Expiry Year</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+      </select> <br> <br>
+
+
+      <label for="card-cvv">*CVV</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+      <p><i>We do not store credit card information</i></p>
+
     </fieldset>
 
     <fieldset>
       <legend>Form Controls</legend>
+
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms">*You are required to agree to the terms <a
+          title="terms and conditions"
+          href="https://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >terms and conditions</a></label> <br> <br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        required
+      >
+
+
+      <label for="subscribe">Can we send you emails?</label> <br> <br>
+
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        required
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label><br><br>
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >PLACE ORDER</button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+
     </fieldset>
   </form>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <p>
+    <a
+      href="https://google.com"
+      title="Home"
+    >Home</a> *
+    <a
+      href="https://google.com"
+      title="Home"
+    ><b>Place order</b></a> *
+
+    <a
+      href="https://google.com"
+      title="Home"
+    >Customer Service</a> *
+
+    <a
+      href="https://google.com"
+      title="Home"
+    >Contact</a> *
+  </p>
+
 
   <div
     class="pixeltab-host"
