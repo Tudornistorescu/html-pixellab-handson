@@ -23,3 +23,24 @@ p .line {
 b {
   color: purple;
 }
+
+a {
+  color: green;
+}
+
+.even b {
+  text-decoration: underline;
+}
+
+.odd .line {
+  color: blue;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
+
+a[href*='.com'] {
+  color: black;
+}

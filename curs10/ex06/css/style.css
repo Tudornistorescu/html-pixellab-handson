@@ -1,0 +1,17 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+p i {
+  position: relative;
+}
+
+p:hover i {
+  position: relative;
+  right: -2px;
+  top: -2px;
+}

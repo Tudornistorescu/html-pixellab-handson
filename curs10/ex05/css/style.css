@@ -1,0 +1,28 @@
+.nested > li:first-child a {
+  text-decoration: none;
+}
+
+.nested > li > ul > li:last-child a {
+  text-decoration: none;
+}
+
+.last-list li:nth-child(odd) {
+  background: yellow;
+}
+
+.my-list > li:nth-child(3) {
+  background: gray;
+}
+
+body h3:nth-of-type(4n) {
+  color: green;
+}
+
+body h2:nth-of-type(odd) {
+  color: blue;
+  background: green;
+}
+
+ul.u-line li:first-child {
+  text-decoration: underline;
+}

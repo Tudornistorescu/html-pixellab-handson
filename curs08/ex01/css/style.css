@@ -3,8 +3,15 @@ a {
   text-decoration: solid line-through blue;
 }
 
-
 h2 {
-  font font-weight: normal;
+  font-weight: normal;
   text-shadow: 2px 2px 5px yellow;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h1.red {
+  color: red;
 }
