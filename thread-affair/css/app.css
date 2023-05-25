@@ -250,4 +250,63 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #707070;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1278px;
+}
+
+/* header */
+.header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.header-secondary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-contact li {
+  display: inline-block;
+}
+
+.header-contact a i [class='fa-'] {
+  color: #ff6b6b;
+  font size: 24px;
+  margin right: 8px;
+  position: relative;
+  bottom:-4px;
+}
+
+.header-controls ul {
+  display: flex;
+  gap: 40px;
+
+}
+
+.header-account .icon {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+}
+
+.header-account .icon {
+  font-size: 20px;
+}
+
+.header-primary {
+  text-align: center;
+}
+
+/* header */
+
+/* footer */
+/* footer */
