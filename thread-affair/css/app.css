@@ -316,10 +316,14 @@ a {
   font-weight: 700;
   height: 21px;
   padding: 0 8px;
+  padding: 0 7px;
   border-radius: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  top: -10px;
+  left: 24px;
+  position: absolute;
 }
 
 .header-primary {
@@ -359,8 +363,6 @@ a {
   margin-bottom: 16px;
   text-transform: uppercase;
   padding: 50px;
-  color: #aeaeae;
-  font-weight: 300;
 }
 
 .footer-menu {
@@ -380,12 +382,17 @@ a {
 .footer-support {
   display: inline-block;
   margin-right: 128px;
+  margin-right: 136px;
 }
 
 .footer-support ul {
   display: flex;
   gap: 36px;
   text-align: center;
+}
+
+.footer-support a {
+  display: block;
 }
 
 .footer-support [class*='fa-'] {
@@ -437,23 +444,35 @@ a {
 /* /footer */
 
 /* /homepage */
-.content-main section header {
-  font-weight: 300;
-  text-align: center;
+.content-main > section {
+  margin-bottom: 64px;
 }
 
-.content-main section header h1 {
-  font-weight: 500;
+.content-main > section > header {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content-main > section > header > h1 {
   font-size: 40px;
   color: #292929;
 }
-
 /* do not use v */
-.consent-main section header h1 span {
+.content-main > section > header > h1 span {
   font-weight: 500;
 }
 
-.home-payment section {
+.content-main > section > header > p {
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.catalog-preview .product-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-payment ul {
   display: flex;
   width: 320px;
   margin: 0 auto;
@@ -463,3 +482,75 @@ a {
 }
 
 /* /homepage */
+
+/* catalog */
+.product-tile {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.product-tile .product-tile-header {
+  margin-bottom: 18px;
+}
+
+.product-tile .product-tile-image {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-title {
+  font-size: 24px;
+}
+
+.product-tile .product-tile-title span {
+  font-weight: 500;
+}
+
+.product-tile .product-tile-title span:nth-child(1) {
+  color: #000;
+}
+
+.product-tile .product-tile-subtitle {
+  line-height: 22px;
+}
+
+.product-tile .product-tile-pricing {
+  line-height: 29px;
+  margin-bottom: 18px;
+}
+
+.product-tile .product-catalog-price {
+  display: block;
+  text-decoration: line-through;
+}
+.product-tile .product-price {
+  font-size: 24px;
+}
+.product-tile .product-price span {
+  color: #ff6b6b;
+  font-weight: 500;
+}
+
+.product-tile .product-a2c {
+  background: none;
+  border: 2px solid #ff6b6b;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  padding: 10px 16px;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.product-tile .product-a2c:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+/* /catalog */
