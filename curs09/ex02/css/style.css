@@ -17,7 +17,7 @@
 .item {
   width: 25px;
   height: 25px;
-  background: #000;
+  background: hsl(0, 12%, 69%);
   border: 1px solid red;
 }
 
@@ -32,4 +32,52 @@
 .stage-03 {
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stage:nth-child(2) {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.stage:nth-child(3) {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.stage:nth-child(4) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stage:nth-child(5) {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stage:nth-child(6) {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.stage:nth-child(7) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }

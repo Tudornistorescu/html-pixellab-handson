@@ -42,4 +42,10 @@ ol {
 
 li {
   display: inline-block;
+  margin-top: 15px;
+}
+
+ol li {
+  display: flex;
+  margin-top: 15px;
 }
