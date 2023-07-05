@@ -41,3 +41,16 @@
   width: 100px;
   height: 100px;
 }
+
+.box-red:hover {
+  width: 120px;
+  height: 120px;
+}
+
+.box-red {
+  transition: width 3s linear;
+}
+
+.box-purple {
+  transition: width 4s ease 1s, height 4s ease 1s;
+}
