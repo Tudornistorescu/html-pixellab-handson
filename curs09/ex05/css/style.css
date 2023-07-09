@@ -60,5 +60,13 @@
 }
 
 .box-brown:hover {
-  rotate(-180deg) scale(0.5);
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-yellow {
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }
