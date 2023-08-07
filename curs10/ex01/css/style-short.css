@@ -1,0 +1,22 @@
+.pane-short .heading {
+  margin: 12px 0px 12px 5px;
+}
+
+.pane-short .container {
+  padding: 15px 8px 15px 4px;
+}
+
+.pane-short .para {
+  padding: 10px 10px 10px 10px;
+}
+
+.pane-short .short-para {
+  width: 65%;
+  border: 1px solid gold;
+  margin: 12px auto;
+  padding: 5px 8px 5px 8px;
+}
+
+.pane-long .list {
+  padding: 0 0 0 8px;
+}
