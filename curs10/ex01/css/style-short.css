@@ -17,6 +17,23 @@
   padding: 5px 8px 5px 8px;
 }
 
-.pane-long .list {
+.pane-short .list {
   padding: 0 0 0 8px;
+}
+
+.pane-short .list li {
+  margin: 5px 0 12px 5px;
+}
+
+.pane-short .navigation {
+  margin: 10px 15px 10px 8px;
+}
+
+.pane-short .anchor-list {
+  margin: 5px 5px 5px 5px;
+}
+
+.pane-short .anchor-list li {
+  display: inline-block;
+  margin: 0 10px;
 }
