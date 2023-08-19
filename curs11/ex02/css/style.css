@@ -1,0 +1,9 @@
+.centered-text {
+  display: flex;
+  justify-content: center;
+}
+
+.numbered-list {
+  display: flex;
+  align-items: center;
+}
