@@ -7,23 +7,29 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <title>Site bootstrap</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  >
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
 
   <link
     rel="stylesheet"
-    href="css/style.css"
+    href="style.css"
   >
 
-  <!-- Add these lines in the <head> section of your HTML file -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-  <title>Document</title>
 </head>
 
 <body>
+
   <p>
     <a
       href="https://google.com"
@@ -37,7 +43,7 @@
       target="_blank"
       rel="noopener noreferrer"
       title="Place Order"
-    >Place Order</a> *
+    ><b>Place Order</b></a> *
 
     <a
       href="https://google.com"
@@ -67,9 +73,9 @@
 
   <h3>Order Now</h3> <br> <br>
 
-  <div class="centered-text">
+  <div class="text-center">
     On our website <i>no account is needed.</i>
-  </div> <br>
+  </div>
 
   <div class=" container mt-4 text-center">
     <p class="mb-3">
@@ -85,14 +91,15 @@
 
   <br> <br><br> <br>
 
-  <div class="container text-center">
-    <div class="row">
+
+  <div class="container text-center justify-conent-center mx-auto">
+    <div class="row justify-conent-center">
       <div class="col">
         <fieldset class="text-start">
 
-          <legend>Personal Information</legend>
+          <legend class="text-center">Personal Information</legend>
 
-          <div class="container mt-4">
+          <div class="container text-center">
             <div class="row">
               <div class="col">
                 <label for="title">Title:</label>
@@ -132,8 +139,8 @@
                 >
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row ">
+              <div class="col text-center d-flex">
                 <label for="name">*Name:</label>
                 <input
                   type="text"
@@ -144,9 +151,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="surname">*Surname:</label>
                 <input
                   type="text"
@@ -157,9 +164,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="email">*Email:</label>
                 <input
                   type="email"
@@ -170,9 +177,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="phone">*Phone:</label>
                 <input
                   type="tel"
@@ -189,11 +196,11 @@
       </div>
       <div class="col">
         <fieldset>
-          <legend>Address Information</legend>
+          <legend class="text-center">Address Information</legend>
 
-          <div class="container mt-4">
+          <div class="container justify-conent-center">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="address-name">*Name:</label>
                 <input
                   type="text"
@@ -204,9 +211,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="address-surname">*Surname:</label>
                 <input
                   type="text"
@@ -217,9 +224,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="address-phone">*Phone:</label>
                 <input
                   type="tel"
@@ -230,9 +237,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="address1">*Address line 1:</label>
                 <input
                   type="text"
@@ -243,9 +250,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="address2">*Address Line 2:</label>
                 <input
                   type="text"
@@ -256,9 +263,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="city">*City:</label>
                 <input
                   type="text"
@@ -269,9 +276,9 @@
                   required
                 >
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="state">*State:</label>
                 <select
                   name="state"
@@ -285,9 +292,9 @@
                   <option value="miami">Miami</option>
                 </select>
               </div>
-            </div>
+            </div> <br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col text-center d-flex">
                 <label for="postcode">*Postcode:</label>
                 <input
                   type="text"
@@ -304,9 +311,12 @@
       </div>
       <div class="col">
         <fieldset>
-          <legend>Card Information</legend>
+          <legend class="text-center">Card Information</legend>
 
-          <label for="card-number">*Card Number</label>
+          <label
+            for="card-number"
+            class="text-center"
+          >*Card Number:</label>
           <input
             type="text"
             name="card-number"
@@ -315,7 +325,10 @@
             required
           > <br> <br>
 
-          <label for="card-name">*Name on card</label>
+          <label
+            for="card-name"
+            class="text-center"
+          >*Name on card:</label>
           <input
             type="text"
             name="card-name"
@@ -327,6 +340,7 @@
           <label for="card-expiry-month">*Epiry Month</label>
 
           <select
+            class="text-center"
             type="undefined"
             id="card-expiry-month"
             name="card-expiry-month"
@@ -337,10 +351,20 @@
             <option value="ianuarie">ianuarie</option>
             <option value="februarie">februarie</option>
             <option value="martie">martie</option>
+            <option value="aprilie">aprilie</option>
+            <option value="mai">mai</option>
+            <option value="iunie">iunie</option>
+            <option value="iulie">iulie</option>
+            <option value="august">august</option>
+            <option value="septembrie">septembrie</option>
+            <option value="octombrie">octombrie</option>
           </select>
+          <br> <br>
 
-
-          <label for="card-expiry-year">*Expiry Year</label>
+          <label
+            for="card-expiry-year"
+            class="text-center"
+          >*Expiry Year</label>
           <select
             name="card-expiry-year"
             id="card-expiry-year"
@@ -377,8 +401,107 @@
     </div>
   </div>
 
+  </fieldset>
+  <br><br>
+  <fieldset class="text-center">
+    <legend>Form Controls</legend>
 
 
+    <input
+      type="checkbox"
+      name="terms"
+      id="terms"
+      required
+    >
+    <label for="terms">*You are required to agree to the terms <a
+        title="terms and conditions"
+        href="https://google.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >terms and conditions</a></label> <br> <br>
+
+    <input
+      type="checkbox"
+      name="subscribe"
+      id="subscribe"
+      required
+    >
+
+
+    <label for="subscribe">Can we send you emails?</label> <br> <br>
+
+
+    <input
+      type="checkbox"
+      name="gdpr-consent"
+      id="gdpr-consent"
+      required
+    >
+    <label for="gdpr-consent">GDPR generic consent?</label><br><br>
+
+    <button
+      class="blue-button"
+      type="submit"
+      name="submit"
+      id="submit"
+    >PLACE ORDER</button>
+
+    <button
+      class="gray-button"
+      type="reset"
+      name="reset"
+      id="reset"
+    >Reset</button>
+
+  </fieldset>
+  </form>
+
+  <br><br>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Labore nostrum, corporis itaque adipisci autem sed blanditiis officia
+    dolores eveniet nesciunt aspernatur praesentium unde illum nemo
+    recusandae sit facilis inventore rerum?
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Rem quos, sequi nobis, atque perferendis illo delectus animi
+    voluptates totam aspernatur obcaecati fuga voluptatum!
+    Vero id quia ab officiis, eveniet facilis. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Sit debitis
+    optio hic explicabo repellat dolor repellendus
+    ipsum iste delectus consequuntur. Animi consequuntur
+    pariatur nemo quam error dolorum minima, maiores recusandae.
+  </p>
+
+  <p>
+    <a
+      href="https://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Home"
+    >Home</a> *
+
+    <a
+      href="https://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Place Order"
+    ><b>Place Order</b></a> *
+
+    <a
+      href="https://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Customer Service"
+    >Customer Service</a> *
+
+    <a
+      href="https://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Contact"
+    >Contact</a> *
+  </p>
 
 </body>
 

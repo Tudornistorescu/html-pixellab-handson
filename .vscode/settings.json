@@ -30,5 +30,6 @@
   },
   "json.schemas": [],
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "livePreview.defaultPreviewPath": "/curs09/ex04/index.html"
+  "livePreview.defaultPreviewPath": "/curs09/ex04/index.html",
+  "liveServer.settings.port": 5501
 }
